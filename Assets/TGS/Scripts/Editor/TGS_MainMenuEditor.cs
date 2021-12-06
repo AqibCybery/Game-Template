@@ -17,8 +17,7 @@ public class TGS_MainMenuEditor : Editor
         {
             myTarget.ClearPlayerPref();
         }
-        myTarget.experience = EditorGUILayout.IntField("Experience", myTarget.experience);
-        EditorGUILayout.LabelField("Level", myTarget.Level.ToString());
+       
         DrawDefaultInspector();
     }
 

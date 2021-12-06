@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d0199c11aa6f514784c5c69cd8378d8, type: 3}
   m_Name: PlayFabEditorPrefsSO
   m_EditorClassIdentifier: 
-  DevAccountEmail: aqibhan143@gmail.com
-  DevAccountToken: 6qhxxe3zfif3pj8m3xs7183n4dnknzjgrkaa8yzag6dhhceumzyee4bqxu1iydpo9jq5kxk1496847qd5g5cwod7nqkk5o13qhddnacn9gzqmkhsm7fcn7sees47n898w5jmnj97snkt4spbdo1m97k1cszgmerb78e49d4e67y5k8r71gdr1kg6513g1ieyaphzrans
-  SelectedStudio: Alish Game
-  SdkPath: Assets/PlayFabSDK
+  DevAccountEmail: 
+  DevAccountToken: 
+  SelectedStudio: 
+  SdkPath: 
   EdExPath: 
   LocalCloudScriptPath: 
   PanelIsShown: 0
-  curMainMenuIdx: 1
+  curMainMenuIdx: 0
   curSubMenuIdx: 0

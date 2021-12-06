@@ -110,9 +110,9 @@ public class UnityInAppsIntegration : MonoBehaviour, IStoreListener
             m_StoreExtensionProvider = extensions;
             Dictionary<string, string> Dict;
 #if UNITY_IPHONE
-                Dict = m_AppleExtensions.GetProductDetails();
+                //Dict = m_AppleExtensions.GetProductDetails();
 #elif UNITY_ANDROID
-            Dict = m_GooglePlayExtensions.GetProductJSONDictionary();
+            //Dict = m_GooglePlayExtensions.GetProductJSONDictionary();
 #endif
         //   foreach (Product item in controller.products.all)
         //    {
