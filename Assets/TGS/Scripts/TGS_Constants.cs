@@ -9,7 +9,7 @@ public static class TGS_Constants
 	public static int[] EnemyCounter;
 
 	public static int scenetoload;
-	public static int currentcar = 0;
+	public static int currentObject = 0;
 	public static Vector3 respawnpos;
 	public static Vector3 respawnrot;
 	public static bool respawntriggered;

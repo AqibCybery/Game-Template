@@ -118,7 +118,7 @@ public class GameManager : MonoBehaviour {
 
 	void InstantiateBike()
 	{
-		Instantiate(Resources.Load("Bikes/bike"+(TGS_Constants.currentcar+1)));
+		Instantiate(Resources.Load("Bikes/bike"+(TGS_Constants.currentObject+1)));
         
 	}
 

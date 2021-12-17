@@ -34,8 +34,8 @@ public class scenehandler : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (!GameObject.FindGameObjectWithTag("MainMenu")) {
-			cam.transform.position =	Vector3.Lerp (cam.transform.position, points [TGS_Constants.currentcar].transform.position, 1f * Time.deltaTime);
-			cam.transform.LookAt (lookatpoints [TGS_Constants.currentcar].transform);
+			cam.transform.position =	Vector3.Lerp (cam.transform.position, points [TGS_Constants.currentObject].transform.position, 1f * Time.deltaTime);
+			cam.transform.LookAt (lookatpoints [TGS_Constants.currentObject].transform);
 		} else {
 
 			cam.transform.RotateAround (menurotatepoint.transform.position, Vector3.down, 10f * Time.deltaTime);

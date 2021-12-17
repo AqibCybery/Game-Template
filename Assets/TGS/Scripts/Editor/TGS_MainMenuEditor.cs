@@ -9,8 +9,8 @@ public class TGS_MainMenuEditor : Editor
     public override void OnInspectorGUI()
     {
        
-        Texture t = Resources.Load("Logo")as Texture;
-        GUILayout.Box(t);
+        //Texture t = Resources.Load("Logo")as Texture;
+        //GUILayout.Box(t,);
       
         TGS_MainMenu myTarget = (TGS_MainMenu)target;
         if (GUILayout.Button("Clear PlayerPref"))
